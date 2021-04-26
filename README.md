@@ -3,7 +3,7 @@ This program calculates the price of a computer by asking the user for it's spec
 
 
 
-
+{
 
 #include <string>
 #include <iostream>
@@ -207,4 +207,5 @@ void displayComputerInformation (double &processorSpeed,
     cout << endl << "Memory (RAM):                    " << memoryAmount << " GB " << endl;
     cout << endl << "Touch Screen:                    " << stringTouchScreen << endl;
     cout << endl << "The total computer price is:     $" << computerPriceCalculation (processorSpeed, storageCapacity, memoryAmount, touchScreenChoice) << endl << endl;
+}
 }
